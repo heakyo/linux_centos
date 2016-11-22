@@ -65,7 +65,7 @@ module_param(request_mode, int, 0);
 	/*
 	 * The internal representation of our device.
 	 */
-	struct vmem_disk_dev {
+struct vmem_disk_dev {
 	int size;                       /* Device size in sectors */
 	u8 *data;                       /* The data array */
 	short users;                    /* How many users */
