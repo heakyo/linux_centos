@@ -3,4 +3,4 @@
 .tmp_versions
 Module.symvers
 *.mod*
-
+*tags
